@@ -15,7 +15,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	private Student[] students;
 	
-	Scanner sc=new Scanner(System.in());
+	/*Scanner sc=new Scanner(System.in());*/
 	/**
 	 * DO NOT remove or change this constructor, it will be used during task check
 	 * @param length
@@ -34,7 +34,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		for(int i=0;i<length;i++)students[i]=sc.nextInt();
+		for(int i=0;i<length;i++)students[i]=i;
 	}
 
 	@Override
